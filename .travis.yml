@@ -2,8 +2,6 @@ language: csharp
 solution: DemoFunctionsMikal.sln
 before_script:
   - msbuild /t:Restore DemoFunctionsMikal.sln
-script:
-  - msbuild /p:Configuration=Release DemoFunctionsMikal.sln
 deploy:
   provider: azure_web_apps
   username: azure_deployment_user       # If AZURE_WA_USERNAME isn't set
