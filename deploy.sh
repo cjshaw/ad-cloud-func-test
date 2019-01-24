@@ -1,1 +1,1 @@
-SLS_DEBUG=true serverless deploy
+azureSubId=$azure_subscription_id azureServicePrincipalTenantId=$azure_tenant_id azureservicePrincipalClientId=$azure_deployment_user azureServicePrincipalPassword=$azure_deployment_password SLS_DEBUG=true serverless deploy
