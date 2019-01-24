@@ -1,7 +1,5 @@
 language: csharp
 solution: DemoFunctionsMikal.sln
-script:
-  - msbuild /t:Restore DemoFunctionsMikal/PrintNames.cs
 deploy:
   provider: azure_web_apps
   username: azure_deployment_user       # If AZURE_WA_USERNAME isn't set
