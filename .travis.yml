@@ -8,9 +8,6 @@ solution: DemoFunctionsMikal.sln
 install:
  - dotnet restore
 
-script:
- - dotnet build --configuration Release
-
 deploy:
   provider: azure_web_apps
   verbose: true
