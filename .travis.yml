@@ -1,3 +1,5 @@
 language: csharp
 solution: DemoFunctionsMikal.sln
+before_install:
+  - chmod +x build.sh
 script: ./build.sh
