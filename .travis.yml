@@ -3,7 +3,6 @@ mono: none
 dotnet: 2.0.0
 dist: trusty
 sudo: required
-solution: DemoFunctionsMikal.sln
 
 install:
  - dotnet restore
