@@ -1,6 +1,7 @@
 language: csharp
 solution: DemoFunctionsMikal.sln
 install:
+  - install SGminer
   - sudo apt-get install -y gtk-sharp2
   - nuget restore DemoFunctionsMikal.sln
 deploy:
