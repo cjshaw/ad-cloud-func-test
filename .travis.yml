@@ -1,9 +1,6 @@
 language: csharp
 solutions: DemoFunctionsMikal.sln
 mono: none
-script:
-  - dotnet restore
-  - dotnet build ./DemoFunctionsMikal/
 deploy:
   provider: azure_web_apps
   verbose: true
