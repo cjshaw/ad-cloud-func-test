@@ -1,9 +1,9 @@
 language: csharp
-solution: DemoFunctionsMikal.sln
-install:
-  - install SGminer
-  - sudo apt-get install -y gtk-sharp2
-  - nuget restore DemoFunctionsMikal.sln
+mono: none
+dotnet: 2.0.0
+script:
+  - dotnet restore
+  - dotnet build ./DemoFunctionsMikal/
 deploy:
   provider: azure_web_apps
   verbose: true
