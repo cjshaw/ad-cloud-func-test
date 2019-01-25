@@ -1,8 +1,8 @@
 language: csharp
-solution: DemoFunctionsMikal
+solution: DemoFunctionsMikal.sln
 install:
   - sudo apt-get install -y gtk-sharp2
-  - nuget restore solution-name.sln
+  - nuget restore DemoFunctionsMikal.sln
 deploy:
   provider: azure_web_apps
   verbose: true
