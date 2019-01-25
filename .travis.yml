@@ -1,5 +1,5 @@
 language: csharp
-solutions: DemoFunctionsMikal.sln
+solution: DemoFunctionsMikal.sln
 mono: none
 deploy:
   provider: azure_web_apps
