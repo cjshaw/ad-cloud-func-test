@@ -4,9 +4,6 @@ dotnet: 2.0.0
 dist: trusty
 sudo: required
 
-install:
- - dotnet restore
-
 deploy:
   provider: azure_web_apps
   verbose: true
